@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import Cars from '../components/Cars'
+import Car from '../components/Car'
 //   default as Cars from '../components/Cars'
 
 const mapStateToProps = (state) => {
@@ -10,4 +10,4 @@ const mapStateToProps = (state) => {
 
 
 
-export default connect(mapStateToProps)(Cars)
+export default connect(mapStateToProps)(Car)
